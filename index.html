@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Book Store</title>
+
+  <link rel="stylesheet" href="css/imgScalling.css">
+  <link rel="stylesheet" href="css/Footer.css">
+  <link rel="stylesheet" href="css/Tabs.css">
+  <link rel="stylesheet" href="css/Header.css">
+  <script src="js/Tabs.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="header">
+    <a href="#default" class="logo">Books of knowledge</a>
+    <div class="header-right">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#Login">Welcome to our site</a>
+    </div>
+  </div>
+
+  <div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'home')">Main</button>
+    <button class="tablinks" onclick="openTab(event, 'ScientificBooks')">Scientific Books (6)</button>
+    <button class="tablinks" onclick="openTab(event, 'AstronomyBooks')">Astronomy Books (4)</button>
+    <button class="tablinks" onclick="openTab(event, 'MagicBooks')">Dark Magic Books (5)</button>
+    <button class="tablinks" onclick="openTab(event, 'Novel')">Novel (5)</button>
+  </div>
+
+  <!-- Content of home -->
+  <div id="home" class="tabcontent">
+    <h2>This site is like a big liberary</h2>
+    <p>Here we sell special books, which you will never find anywhere else.</p>
+    <p>Here you will find all kinds of books like dark magic, novels, scientific...etc.</p>
+    <p>So, what are you waiting for? buy everything while you can because the stock ai' really limited.</p>
+    <h3>Select one of the categories on the left to start browsering.</h3>
+  </div>
+  <!-- First category of books -->
+  <!-- First book here -->
+  <div id="ScientificBooks" class="tabcontent">
+
+    <div class="row">
+      <div class="column left" style="background-color:#FFE0B2;">
+        <img src="imgs/scientific1.jpg" class="books" alt="book1"> </div>
+      <div class="column middle" style="background-color:#F5F5F5;">
+        <div class="sc"> </div>
+        <div class="sc">
+          <h4>Th Boy Scientist
+        </div>
+        <p>Science has never been so much fun! The Boy Scientist offers all the vintage appeal of Popular Mechanics's popular Boy Mechanic series combined with daring adventures in the laboratory. Taken from the turn-of-the-twentieth-century issues
+          of Popular Mechanics magazine, these 160 experiments-based on chemistry, math, and physics-carry on the Popular Mechanics's tradition of making science engaging and entertaining. And even though technology has changed, and our knowledge of
+          how things work has grown, the underlying scientific principles behind these activities remain sound.</p>
+      </div>
+      <div class="column right" style="background-color:#FFE0B2;">
+        <center>
+
+          <h3>15$</h3>
+          <button type="button" class="btn btn-primary">Buy now</button>
+          <br><br>
+          <button type="button" class="btn btn-default">View more detalis</button>
+        </center>
+      </div>
+    </div>
+
+    <!-- Second book here -->
+    <br />
+    <div class="row">
+      <div class="column left" style="background-color:#FFE0B2;">
+        <img src="imgs/scientific2.jpg" class="books" alt="book2"> </div>
+      <div class="column middle" style="background-color:#F5F5F5;">
+        <div class="sc"> </div>
+        <div class="sc">
+          <h4>Stuff Matters</h4>
+          <p>SuperSummary, a modern alternative to SparkNotes and CliffsNotes, offers high-quality study guides that feature detailed chapter summaries and analysis of major themes, characters, quotes, and essay topics. This one-page guide includes a
+            plot summary and brief analysis of Stuff Matters by Mark Miodownik.</p>
+        </div>
+      </div>
+      <div class="column right" style="background-color:#FFE0B2;">
+        <center>
+          <h3>10$</h3>
+          <button type="button" class="btn btn-primary">Buy now</button>
+          <br><br>
+          <button type="button" class="btn btn-default">View more detalis</button>
+        </center>
+      </div>
+    </div>
+
+    <!-- Third book here -->
+    <br />
+    <div class="row">
+      <div class="column left" style="background-color:#FFE0B2;">
+        <img src="imgs/scientific3.jpg" class="books" alt="book3"> </div>
+      <div class="column middle" style="background-color:#F5F5F5;">
+        <div class="sc"> </div>
+        <div class="sc">
+          <h4>The Death And Life of A Great Lake</h4>
+          </h4>
+          <p>The Death and Life of the Great Lakes by Dan Egan is a non-fiction history of the Great Lakes, and how the influence of man-made innovations over the course of centuries has led to an ecological disaster that will impact generations to
+            come. Egan, a journalist based in Milwaukee, writes extensively on the ways that technology and the desire of man to control nature have led to an influx of invasive species, unbalanced ecosystems, pollution, and other disastrous problems
+            for humans and animals living in the northern Midwest. </p>
+        </div>
+      </div>
+      <div class="column right" style="background-color:#FFE0B2;">
+        <center>
+          <h3>15$</h3>
+          <button type="button" class="btn btn-primary">Buy now</button>
+          <br>
+          <br>
+          <button type="button" class="btn btn-default">View more detalis</button>
+        </center>
+      </div>
+    </div>
+
+    <!-- Forth book here -->
+    <br />
+    <div class="row">
+      <div class="column left" style="background-color:#FFE0B2;">
+        <img src="imgs/scientific4.jpg" class="books" alt="book4"> </div>
+      <div class="column middle" style="background-color:#F5F5F5;">
+        <div class="sc"> </div>
+        <div class="sc">
+          <h4>Soul Mind Body Science System</h4>
+          <p>What is a soul? Are miracles real? When the soul is healed, how does the body respond?
+
+            Throughout history,unexplainable by modern scie nce. Dr. Sha has personally healed thousands of patients, usually in front of dozens of witnesses. Hundreds of videos of these healings can seen on YouTube. But how can these healings be
+            explained?
+
+            Soul Mind Body Science System is the first book to explore the scientific explanations for why soul healing miracles are genuine. Written with Dr. Rulin Xiu, an expert on string theory and quantum physics who trained at The University of
+            California Berkeley, Dr. Sha shares, for the first time, the scientific theories that explain why all actions on Earth are guided by the reality of the soul.</p>
+        </div>
+      </div>
+      <div class="column right" style="background-color:#FFE0B2;">
+        <center>
+
+          <h3>15$</h3>
+          <button type="button" class="btn btn-primary">Buy now</button>
+          <br><br>
+          <button type="button" class="btn btn-default">View more detalis</button>
+        </center>
+      </div>
+    </div>
+
+    <!-- The 5th book-->
+    <div class="row">
+      <div class="column left" style="background-color:#FFE0B2;">
+        <img src="imgs/scientific5.jpg" class="books" alt="book5"> </div>
+      <div class="column middle" style="background-color:#F5F5F5;">
+        <div class="sc"> </div>
+        <div class="sc">
+          <h4>Einstein's Theory of Relativity (Classic Reprint) </h4>
+          <p>Excerpt from Einstein's Theory of Relativity
+            Of the other books which I have used I should like to quote, above all, Ernst Mach's classical Mechanics (which has appeared in English), and then the very lucidly written volume by E. T. Whittaker, A History of the Theories of Aether and
+            Electricity (london, Longmans, Green Co., and the comprehensive account of the Theory of Relativity given by Hermann Weyl in his Space, Time, Matter (english translation published by Messrs. Methuen 81: Co., Ltd., Anyone who wishes to
+            penetrate further into Einstein's doctrines must study the latter work. It is impossible to enumerate the countless books and essays from which I have drawn more or less directly.</p>
+        </div>
+      </div>
+      <div class="column right" style="background-color:#FFE0B2;">
+        <center>
+
+          <h3>15$</h3>
+          <button type="button" class="btn btn-primary">Buy now</button>
+          <br><br>
+          <button type="button" class="btn btn-default">View more detalis</button>
+        </center>
+      </div>
+    </div>
+    <!-- The 6th book-->
+    <div class="row">
+      <div class="column left" style="background-color:#FFE0B2;">
+        <img src="imgs/scientific6.jpg" class="books" alt="book6"> </div>
+      <div class="column middle" style="background-color:#F5F5F5;">
+        <div class="sc"> </div>
+        <div class="sc">
+          <h4>The Theory Of Everything</h4>
+          <p>Stephen Hawking is widely believed to be one of the world’s greatest minds: It would be like hearing Christopher Columbus on the New World. Hawking presents a series of seven lec-tures—covering everything from big bang to black holes to
+            string theory.</p>
+        </div>
+      </div>
+      <div class="column right" style="background-color:#FFE0B2;">
+        <center>
+
+          <h3>13$</h3>
+          <button type="button" class="btn btn-primary">Buy now</button>
+          <br><br>
+          <button type="button" class="btn btn-default">View more detalis</button>
+        </center>
+      </div>
+    </div>
+  </div>
+
+  <!--New category of books-->
+  <div id="AstronomyBooks" class="tabcontent">
+
+    <div class="row">
+      <div class="column left" style="background-color:#FFE0B2;">
+        <img src="imgs/Astronomy1.jpg" class="books" alt="book1"> </div>
+      <div class="column middle" style="background-color:#F5F5F5;">
+        <div class="sc"> </div>
+        <div class="sc">
+          <h4>A Brief History of Time
+        </div>
+        <p>A Brief History of Time: From the Big Bang to Black Holes is a popular-science book on cosmology by British physicist Stephen Hawking. It was first published in 1988. Hawking wrote the book for nonspecialist readers with no prior knowledge
+          of scientific theories. Wikipedia
+        </p>
+        <h4>Publisher: Bantam Books</h4>
+        <h4>Originally published: March 1, 1988</h4>
+        <h4>Author: Stephen Hawking</h4>
+      </div>
+      <div class="column right" style="background-color:#FFE0B2;">
+        <center>
+
+          <h3>8$</h3>
+          <button type="button" class="btn btn-primary">Buy now</button>
+          <br><br>
+          <button type="button" class="btn btn-default">View more detalis</button>
+        </center>
+      </div>
+    </div>
+
+    <!-- Second book here -->
+    <br />
+    <div class="row">
+      <div class="column left" style="background-color:#FFE0B2;">
+        <img src="imgs/Astronomy2.jpg" class="books" alt="book2"> </div>
+      <div class="column middle" style="background-color:#F5F5F5;">
+        <div class="sc"> </div>
+        <div class="sc">
+          <h4>Turn left at Orion</h4>
+          <p>A guidebook for beginning amateur astronomers, Turn Left at Orion provides all the information you need to observe the Moon, the planets and a whole host of celestial objects</p>
+          <h4>Originally published: 1989</h4>
+          <h4>Author:Guy Consolmagno</h4>
+          <h4>Genre: Reference work</h4>
+        </div>
+      </div>
+      <div class="column right" style="background-color:#FFE0B2;">
+        <center>
+          <h3>10$</h3>
+          <button type="button" class="btn btn-primary">Buy now</button>
+          <br><br>
+          <button type="button" class="btn btn-default">View more detalis</button>
+        </center>
+      </div>
+    </div>
+
+    <!-- Third book here -->
+    <br />
+    <div class="row">
+      <div class="column left" style="background-color:#FFE0B2;">
+        <img src="imgs/Astronomy3.jpg" class="books" alt="book3"> </div>
+      <div class="column middle" style="background-color:#F5F5F5;">
+        <div class="sc"> </div>
+        <div class="sc">
+          <h4>Astrophysics for People in a Hurry</h4>
+          </h4>
+          <p>Astrophysics for People in a Hurry is a 2017 popular science book by Neil deGrasse Tyson, centering around a number of basic questions about the universe. </p>
+          <h4>Originally published: May 2, 2017</h4>
+          <h4>Author: Neil deGrasse Tyson</h4>
+          <h4>Genre: Non-fiction</h4>
+        </div>
+      </div>
+      <div class="column right" style="background-color:#FFE0B2;">
+        <center>
+          <h3>15$</h3>
+          <button type="button" class="btn btn-primary">Buy now</button>
+          <br>
+          <br>
+          <button type="button" class="btn btn-default">View more detalis</button>
+        </center>
+      </div>
+    </div>
+
+    <!-- Fourth book here -->
+    <br />
+    <div class="row">
+      <div class="column left" style="background-color:#FFE0B2;">
+        <img src="imgs/Astronomy4.jpg" class="books" alt="book4"> </div>
+      <div class="column middle" style="background-color:#F5F5F5;">
+        <div class="sc"> </div>
+        <div class="sc">
+          <h4>Astronomy: A Self-Teaching Guide</h4>
+          <p>For a generation, Astronomy: A Self-Teaching Guide has introduced hundreds of thousands of readers worldwide to the night sky. Now this classic beginner's guide has been completely revised to bring it up to date with the latest
+            discoveries</p>
+          <h4>Originally published: August 4, 1993</h4>
+          <h4>Author: Dinah L. Moché</h4>
+        </div>
+      </div>
+      <div class="column right" style="background-color:#FFE0B2;">
+        <center>
+
+          <h3>7$</h3>
+          <button type="button" class="btn btn-primary">Buy now</button>
+          <br><br>
+          <button type="button" class="btn btn-default">View more detalis</button>
+        </center>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--Dark magic category here-->
+  <!-- First book here -->
+  <div id="MagicBooks" class="tabcontent">
+
+    <div class="row">
+      <div class="column left" style="background-color:#FFE0B2;">
+        <img src="imgs/DMagec1.jpg" class="books" alt="book1"> </div>
+      <div class="column middle" style="background-color:#F5F5F5;">
+        <div class="sc"> </div>
+        <div class="sc">
+          <h4>Black Arts : An Absorbing Account of Witchcraft
+        </div>
+        <p>The Book of Smokeless Fire By S. Ben Qayin "The work that is being presented in "The Book of Smokeless Fire" is based on a very little known and overlooked Solomonic text simply known as "Miscelaneo de Salomon," which amazingly mirrors
+          that of Lovecraft's, "Necronomicon" both in content and history. It is an ancient and forbidden Arabian manuscript, that seems was later evolved into the Greek "Goetia" and gives the earliest known account of King Solomon and his binding of
+          the seventy-two sinister Djinn he sealed away in the infamous brass container. </p>
+
+      </div>
+      <div class="column right" style="background-color:#FFE0B2;">
+        <center>
+
+          <h3>320$</h3>
+          <button type="button" class="btn btn-primary">Buy now</button>
+          <br><br>
+          <button type="button" class="btn btn-default">View more detalis</button>
+        </center>
+      </div>
+    </div>
+
+    <!-- Second book here -->
+    <br />
+    <div class="row">
+      <div class="column left" style="background-color:#FFE0B2;">
+        <img src="imgs/DMagec2.jpg" class="books" alt="book2"> </div>
+      <div class="column middle" style="background-color:#F5F5F5;">
+        <div class="sc"> </div>
+        <div class="sc">
+          <h4>At Satan's Altar : A Collection of Prayers</h4>
+          <p>Marie RavenSoul, a disciple of the Devil for more than 30 years, presents the reader with a fascinating collection of her personal and heartfelt devotionals to the Lord of Darkness. Those who have been searching for a serious and
+            practical guide to religious rites in honour of Satan will find what they seek in this volume. Written with the explicit religious worship of the Devil in mind, At Satan's Altar provides a wealth of liturgical material to aid both the
+            novice practitioner and the seasoned Satanist alike. Whether your path is a solitary one or you are looking for something to add to your Coven's rituals, this book will not disappoint.
+          </p>
+        </div>
+      </div>
+      <div class="column right" style="background-color:#FFE0B2;">
+        <center>
+          <h3>320$</h3>
+          <button type="button" class="btn btn-primary">Buy now</button>
+          <br><br>
+          <button type="button" class="btn btn-default">View more detalis</button>
+        </center>
+      </div>
+    </div>
+
+    <!-- Third book here -->
+    <br />
+    <div class="row">
+      <div class="column left" style="background-color:#FFE0B2;">
+        <img src="imgs/DMagec3.jpg" class="books" alt="book3"> </div>
+      <div class="column middle" style="background-color:#F5F5F5;">
+        <div class="sc"> </div>
+        <div class="sc">
+          <h4>Book of Satanic Magic</h4>
+          </h4>
+          <p>The Book of Satanic Magic contains powerful Rites, Rituals, Conjurations, Spells and Invocations used by those who worship Satan. This book also contains the Theology of Darkness of the Left Hand Path and Demonic Invocations.
+          </p>
+        </div>
+      </div>
+      <div class="column right" style="background-color:#FFE0B2;">
+        <center>
+          <h3>20$</h3>
+          <button type="button" class="btn btn-primary">Buy now</button>
+          <br>
+          <br>
+          <button type="button" class="btn btn-default">View more detalis</button>
+        </center>
+      </div>
+    </div>
+
+    <!-- Fourth book here -->
+    <br />
+    <div class="row">
+      <div class="column left" style="background-color:#FFE0B2;">
+        <img src="imgs/DMagec4.jpg" class="books" alt="book4"> </div>
+      <div class="column middle" style="background-color:#F5F5F5;">
+        <div class="sc"> </div>
+        <div class="sc">
+          <h4>The Satanic Rituals</h4>
+          <p>(full book description) University Books, Inc., Secaucus, NJ, 1972. 1st Edition 1st Printing, Fine/VG, Hard Cover, DJ With MYLAR. Size=6.5"x9.5", 220pgs. 1/2" and 1/4" DJ tear top rear edge, 1/8" x 1/4" chip and 1/4" DJ tear rear
+            fore-edge corner, DJ nicked, slightly worn at edges, o.w. clean, bright and tight. No ink names, bookplates, etc. Price unclipped. RARE First Edition of this Satanic classic. [Satanism: Occult: First Editions: Race Books: Satanic Worship:
+            Black Mass: Satanic Baptisms: Devil Worship].
+          </p>
+        </div>
+      </div>
+      <div class="column right" style="background-color:#FFE0B2;">
+        <center>
+          <h3>620.74$</h3>
+          <button type="button" class="btn btn-primary">Buy now</button>
+          <br><br>
+          <button type="button" class="btn btn-default">View more detalis</button>
+        </center>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column left" style="background-color:#FFE0B2;">
+        <img src="imgs/DMagec5.jpg" class="books" alt="book5"> </div>
+      <div class="column middle" style="background-color:#F5F5F5;">
+        <div class="sc"> </div>
+        <div class="sc">
+          <h4>The Book of Shadows: Red White and Black Magic Spells </h4>
+          <p>
+            I compiled this Book of Shadows from a collection of spells I have been using since I started down my path. This book contains over 100 spells and a list of runes and how they can be used in spell casting and even crafting your own
+            spells. I've collected these spells from several different sources, mostly from witches I have met in my travels and covens I have been a part of.
+          </p>
+        </div>
+      </div>
+      <div class="column right" style="background-color:#FFE0B2;">
+        <center>
+
+          <h3>13.50$</h3>
+          <button type="button" class="btn btn-primary">Buy now</button>
+          <br><br>
+          <button type="button" class="btn btn-default">View more detalis</button>
+        </center>
+      </div>
+    </div>
+
+  </div>
+
+  <!--Novel Category here-->
+  <!-- First book here -->
+  <div id="Novel" class="tabcontent">
+
+    <div class="row">
+      <div class="column left" style="background-color:#FFE0B2;">
+        <img src="imgs/Novel1.jpg" class="books" alt="book1"> </div>
+      <div class="column middle" style="background-color:#F5F5F5;">
+        <div class="sc"> </div>
+        <div class="sc">
+          <h4>Ulysses
+        </div>
+        <p>Written as an homage to Homer’s epic poem The Odyssey, Ulysses follows its hero, Leopold Bloom, through the streets of Dublin. Overflowing with puns, references to classical literature, and stream-of-consciousness writing, this is a
+          complex, multilayered novel about one day in the life of an ordinary man. Initially banned in the United States but overturned by a legal challenge by Random House’s Bennett Cerf, Ulysses was called “a memorable catastrophe” (Virginia
+          Woolf), “a book to which we are all indebted” (T. S. Eliot), and “the most faithful X-ray ever taken of the ordinary human consciousness” (Edmund Wilson). Joyce himself said, “There is not one single serious line in [Ulysses]. </p>
+
+      </div>
+      <div class="column right" style="background-color:#FFE0B2;">
+        <center>
+
+          <h3>11.01$</h3>
+          <button type="button" class="btn btn-primary">Buy now</button>
+          <br><br>
+          <button type="button" class="btn btn-default">View more detalis</button>
+        </center>
+      </div>
+    </div>
+
+    <!-- Second book here -->
+    <br />
+    <div class="row">
+      <div class="column left" style="background-color:#FFE0B2;">
+        <img src="imgs/Novel2.jpg" class="books" alt="book2"> </div>
+      <div class="column middle" style="background-color:#F5F5F5;">
+        <div class="sc"> </div>
+        <div class="sc">
+          <h4>The Great Gatsby</h4>
+          <p>Set in the Jazz Age, The Great Gatsby tells the story of the mysterious millionaire Jay Gatsby, his decadent parties, and his love for the alluring Daisy Buchanan. Dismissed as “no more than a glorified anecdote, and not too probable at
+            that” (The Chicago Tribune), The Great Gatsby is now considered a contender for “the Great American Novel.” Fitzgerald wanted to title the novel “Trimalchio in West Egg,” but both his wife and his editor preferred “The Great Gatsby.”
+            Fitzgerald gave in, though he still thought that “the title is only fair, rather bad than good.”
+          </p>
+        </div>
+      </div>
+      <div class="column right" style="background-color:#FFE0B2;">
+        <center>
+          <h3>14$</h3>
+          <button type="button" class="btn btn-primary">Buy now</button>
+          <br><br>
+          <button type="button" class="btn btn-default">View more detalis</button>
+        </center>
+      </div>
+    </div>
+
+    <!-- Third book here -->
+    <br />
+    <div class="row">
+      <div class="column left" style="background-color:#FFE0B2;">
+        <img src="imgs/Novel3.jpg" class="books" alt="book3"> </div>
+      <div class="column middle" style="background-color:#F5F5F5;">
+        <div class="sc"> </div>
+        <div class="sc">
+          <h4>Brave New World</h4>
+          <p>Though Brave New World is less famous than George Orwell’s 1984, it arguably presents a world that more closely resembles our own: a world of easy sex, readily available and mood-altering pharmaceuticals, information overload, and mass
+            production. Juxtaposing Orwell’s and Huxley’s dystopias, the critic Neil Postman commented: “What Orwell feared were those who would ban books. What Huxley feared was that there would be no reason to ban a book, for there would be no one
+            who wanted to read one. . . . Orwell feared that the truth would be concealed from us. Huxley feared the truth would be drowned in a sea of irrelevance.”</p>
+        </div>
+      </div>
+      <div class="column right" style="background-color:#FFE0B2;">
+        <center>
+          <h3>20$</h3>
+          <button type="button" class="btn btn-primary">Buy now</button>
+          <br>
+          <br>
+          <button type="button" class="btn btn-default">View more detalis</button>
+        </center>
+      </div>
+    </div>
+
+    <!-- Fourth book here -->
+    <br />
+    <div class="row">
+      <div class="column left" style="background-color:#FFE0B2;">
+        <img src="imgs/Novel4.jpg" class="books" alt="book4"> </div>
+      <div class="column middle" style="background-color:#F5F5F5;">
+        <div class="sc"> </div>
+        <div class="sc">
+          <h4>Darkness at Noon</h4>
+          <p>Set in the midst of Stalin’s 1936–1938 purges—when Stalin executed as many as 1.75 million peasants, government officials, and Communist party members—Darkness at Noon is the story of a man named Rubashov, who is arrested in the middle
+            of the night by the state’s secret police. The Party he has long served tortures him and demands he confess to crimes they know he has not committed. Darkness at Noon sold over 400,000 copies when it was published and its portrait of
+            Communism was a major factor in the Communist Party’s defeat in France.
+          </p>
+        </div>
+      </div>
+      <div class="column right" style="background-color:#FFE0B2;">
+        <center>
+          <h3>10.74$</h3>
+          <button type="button" class="btn btn-primary">Buy now</button>
+          <br><br>
+          <button type="button" class="btn btn-default">View more detalis</button>
+        </center>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column left" style="background-color:#FFE0B2;">
+        <img src="imgs/Novel5.jpg" class="books" alt="book5"> </div>
+      <div class="column middle" style="background-color:#F5F5F5;">
+        <div class="sc"> </div>
+        <div class="sc">
+          <h4>Nineteen Eighty-Four</h4>
+          <p>The most famous dystopian novel of all time, 1984 is the story of Winston Smith as he struggles to survive in the sinister world of Big Brother. This novel has so defined the twentieth century that many terms from it—Big Brother,
+            doublethink, thought police—have seeped into popular culture. When it was first published in 1949, the novelist V. S. Pritchett commented: “I do not think I have ever read a novel more frightening and depressing; and yet, such are the
+            originality, the suspense.
+          </p>
+        </div>
+      </div>
+      <div class="column right" style="background-color:#FFE0B2;">
+        <center>
+
+          <h3>13.50$</h3>
+          <button type="button" class="btn btn-primary">Buy now</button>
+          <br><br>
+          <button type="button" class="btn btn-default">View more detalis</button>
+        </center>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- Site footer -->
+  <div class="">
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We
+              will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+              <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+              <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+              <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+              <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+              <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/about/">About Us</a></li>
+              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+              <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+              <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by
+              <a href="#">Scanfcode</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

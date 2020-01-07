@@ -1,0 +1,13 @@
+body{
+  background-color: #e2dcd5;
+}
+hr{
+  border-style:none;
+  border-top-style:dotted;
+  border-width: 5px;
+  border-color: #5e616a;
+  width:10%;
+}
+h1{
+  font-family: Book Antiqua;
+}

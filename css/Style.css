@@ -1,0 +1,18 @@
+body{
+  background-color: #f9f3e6;
+}
+hr{
+  border-style:none;
+  border-top-style:dotted;
+  border-width: 5px;
+  border-color: #5e616a;
+  width:10%;
+}
+.ex1{
+  width: 70%;
+  background: radial-gradient(circle , #e8aa8c, #5e616a);
+  padding:5%;
+}
+h1{
+  font-family: Book Antiqua;
+}
